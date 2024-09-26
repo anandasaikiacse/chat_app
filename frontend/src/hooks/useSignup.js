@@ -33,6 +33,7 @@ const useSignup = () => {
 
 	return { loading, signup };
 };
+
 export default useSignup;
 
 function handleInputErrors({ fullName, username, password, confirmPassword, gender }) {
